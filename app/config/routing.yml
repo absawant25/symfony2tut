@@ -1,0 +1,8 @@
+qualys_news_feed:
+    resource: "@QualysNewsFeedBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
